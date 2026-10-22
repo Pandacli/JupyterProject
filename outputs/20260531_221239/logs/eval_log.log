@@ -1,0 +1,223 @@
+2026-05-31 22:12:39 - evalscope - INFO: Running with native backend
+2026-05-31 22:12:39 - evalscope - INFO: Dump task config to ./outputs/20260531_221239/configs/task_config.yaml
+2026-05-31 22:12:39 - evalscope - INFO: {
+    "model": "/media/tommy/win_documents/code/ai_source/LlamaFactory/saves/Qwen2.5-1.5B-Instruct/lora/train_2026-05-30-20-01-00",
+    "model_id": "train_2026-05-30-20-01-00",
+    "model_args": {
+        "revision": "master",
+        "precision": "torch.float16"
+    },
+    "model_task": "text_generation",
+    "chat_template": null,
+    "datasets": [
+        "gsm8k",
+        "arc"
+    ],
+    "dataset_args": {
+        "gsm8k": {
+            "name": "gsm8k",
+            "dataset_id": "AI-ModelScope/gsm8k",
+            "output_types": [
+                "generation"
+            ],
+            "subset_list": [
+                "main"
+            ],
+            "default_subset": "default",
+            "few_shot_num": 4,
+            "few_shot_random": false,
+            "train_split": "train",
+            "eval_split": "test",
+            "prompt_template": "{question}\nPlease reason step by step, and put your final answer within \\boxed{{}}.",
+            "few_shot_prompt_template": "Here are some examples of how to solve similar problems:\n\n{fewshot}\n\n{question}\nPlease reason step by step, and put your final answer within \\boxed{{}}.",
+            "system_prompt": null,
+            "query_template": null,
+            "pretty_name": "GSM8K",
+            "description": "\n## Overview\n\nGSM8K (Grade School Math 8K) is a high-quality dataset of 8.5K linguistically diverse grade school math word problems created by human problem writers. The dataset is specifically designed to evaluate and improve the multi-step mathematical reasoning capabilities of language models.\n\n## Task Description\n\n- **Task Type**: Mathematical Word Problem Solving\n- **Input**: Natural language math word problem\n- **Output**: Numerical answer derived through step-by-step reasoning\n- **Difficulty**: Grade school level (2-8 reasoning steps required)\n\n## Key Features\n\n- Problems require basic arithmetic operations (addition, subtraction, multiplication, division)\n- Solutions involve 2 to 8 sequential reasoning steps\n- High linguistic diversity in problem formulations\n- Human-written problems ensuring natural language quality\n- Clear numerical answers for objective evaluation\n\n## Evaluation Notes\n\n- Default configuration uses **4-shot** examples with Chain-of-Thought (CoT) prompting\n- Answers should be formatted within `\\boxed{}` for proper extraction\n- The metric extracts numerical values for accuracy comparison\n- Supports both zero-shot and few-shot evaluation modes\n",
+            "paper_url": "https://arxiv.org/abs/2110.14168",
+            "data_statistics": null,
+            "sample_example": null,
+            "tags": [
+                "Math",
+                "Reasoning"
+            ],
+            "filters": null,
+            "metric_list": [
+                {
+                    "acc": {
+                        "numeric": true
+                    }
+                }
+            ],
+            "aggregation": "mean",
+            "shuffle": false,
+            "shuffle_choices": false,
+            "force_redownload": false,
+            "review_timeout": null,
+            "extra_params": {},
+            "sandbox_config": {},
+            "max_image_bytes": null
+        },
+        "arc": {
+            "name": "arc",
+            "dataset_id": "allenai/ai2_arc",
+            "output_types": [
+                "generation"
+            ],
+            "subset_list": [
+                "ARC-Easy",
+                "ARC-Challenge"
+            ],
+            "default_subset": "default",
+            "few_shot_num": 0,
+            "few_shot_random": false,
+            "train_split": "train",
+            "eval_split": "test",
+            "prompt_template": "Answer the following multiple choice question. The entire content of your response should be of the following format: 'ANSWER: [LETTER]' (without quotes) where [LETTER] is one of {letters}.\n\n{question}\n\n{choices}",
+            "few_shot_prompt_template": null,
+            "system_prompt": null,
+            "query_template": null,
+            "pretty_name": "ARC",
+            "description": "\n## Overview\n\nARC (AI2 Reasoning Challenge) is a benchmark designed to evaluate science question answering capabilities of AI models. It consists of multiple-choice science questions from grade 3 to grade 9, divided into an Easy set and a Challenge set based on difficulty.\n\n## Task Description\n\n- **Task Type**: Multiple-Choice Science Question Answering\n- **Input**: Science question with 3-5 answer choices\n- **Output**: Correct answer letter (A, B, C, D, or E)\n- **Difficulty Levels**: ARC-Easy and ARC-Challenge\n\n## Key Features\n\n- 7,787 science questions from standardized tests (grades 3-9)\n- ARC-Easy: Questions answerable by retrieval or word co-occurrence\n- ARC-Challenge: Questions requiring deeper reasoning\n- Questions cover physics, chemistry, biology, and earth science\n- Designed to test both factual knowledge and reasoning\n\n## Evaluation Notes\n\n- Default configuration uses **0-shot** evaluation\n- Two subsets available: `ARC-Easy` and `ARC-Challenge`\n- Challenge set is commonly used for leaderboard comparisons\n- Supports few-shot evaluation with train split examples\n",
+            "paper_url": null,
+            "data_statistics": null,
+            "sample_example": null,
+            "tags": [
+                "Reasoning",
+                "MCQ"
+            ],
+            "filters": null,
+            "metric_list": [
+                "acc"
+            ],
+            "aggregation": "mean",
+            "shuffle": false,
+            "shuffle_choices": false,
+            "force_redownload": false,
+            "review_timeout": null,
+            "extra_params": {},
+            "sandbox_config": {},
+            "max_image_bytes": null
+        }
+    },
+    "dataset_dir": "/home/tommy/.cache/modelscope/hub/datasets",
+    "dataset_hub": "modelscope",
+    "repeats": 1,
+    "generation_config": {
+        "batch_size": 1,
+        "max_tokens": 2048,
+        "top_p": 1.0,
+        "temperature": 1.0,
+        "do_sample": false,
+        "top_k": 50,
+        "n": 1
+    },
+    "eval_type": "llm_ckpt",
+    "eval_backend": "Native",
+    "eval_config": null,
+    "limit": 5,
+    "eval_batch_size": 1,
+    "use_cache": null,
+    "rerun_review": false,
+    "work_dir": "./outputs/20260531_221239",
+    "no_timestamp": false,
+    "enable_progress_tracker": false,
+    "ignore_errors": false,
+    "debug": false,
+    "seed": 42,
+    "api_url": null,
+    "timeout": null,
+    "stream": null,
+    "judge_strategy": "auto",
+    "judge_worker_num": 1,
+    "judge_model_args": {},
+    "analysis_report": false,
+    "collect_perf": true,
+    "sandbox": {
+        "enabled": false,
+        "engine": "docker",
+        "default_config": {},
+        "manager_config": {},
+        "pool_size": null
+    },
+    "use_sandbox": false,
+    "sandbox_type": "docker",
+    "sandbox_manager_config": {},
+    "agent_config": null,
+    "evalscope_version": "0.0.0_dev"
+}
+2026-05-31 22:12:39 - evalscope - INFO: Start loading benchmark dataset: gsm8k
+2026-05-31 22:12:39 - evalscope - INFO: Loading dataset AI-ModelScope/gsm8k from modelscope > subset: main > split: test ...
+2026-05-31 22:12:47 - evalscope - INFO: Loading dataset AI-ModelScope/gsm8k from modelscope > subset: main > split: train ...
+2026-05-31 22:12:53 - evalscope - INFO: Start evaluating 1 subsets of gsm8k: ['main']
+2026-05-31 22:12:53 - evalscope - INFO: Unified pool: 5 items to process, 0 already fully cached (5 total across all subsets).
+2026-05-31 22:12:53 - evalscope - INFO: Loading model for prediction...
+2026-05-31 22:12:53 - evalscope - INFO: Creating model /media/tommy/win_documents/code/ai_source/LlamaFactory/saves/Qwen2.5-1.5B-Instruct/lora/train_2026-05-30-20-01-00 with eval_type=llm_ckpt base_url=None, config={'retries': 5, 'retry_interval': 10, 'batch_size': 1, 'max_tokens': 2048, 'top_p': 1.0, 'temperature': 1.0, 'do_sample': False, 'top_k': 50, 'n': 1}, model_args={'revision': 'master', 'precision': 'torch.float16'}
+2026-05-31 22:12:57 - evalscope - ERROR: Processing item in subset='main' failed: cannot import name '_maybe_shard_state_dict_for_tp' from 'peft.utils.save_and_load' (/home/tommy/miniconda3/envs/py312/lib/python3.12/site-packages/peft/utils/save_and_load.py)
+Traceback:
+Traceback (most recent call last):
+  File "/media/tommy/win_documents/code/ai_source/evalscope/evalscope/utils/function_utils.py", line 422, in run_in_threads_with_progress
+    result = fut.result()
+             ^^^^^^^^^^^^
+  File "/home/tommy/miniconda3/envs/py312/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/tommy/miniconda3/envs/py312/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/tommy/miniconda3/envs/py312/lib/python3.12/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/tommy/win_documents/code/ai_source/evalscope/evalscope/utils/function_utils.py", line 377, in _worker_with_loop_cleanup
+    return worker(item)
+           ^^^^^^^^^^^^
+  File "/media/tommy/win_documents/code/ai_source/evalscope/evalscope/evaluator/evaluator.py", line 292, in worker
+    return self._process_work_item(item, context.model_prediction_dir)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/tommy/win_documents/code/ai_source/evalscope/evalscope/evaluator/evaluator.py", line 336, in _process_work_item
+    self._predict_sample(item.sample, model_prediction_dir) if item.needs_predict else item.task_state
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/tommy/win_documents/code/ai_source/evalscope/evalscope/evaluator/evaluator.py", line 454, in _predict_sample
+    task_state = self.benchmark.run_inference(model=self.model, sample=sample, output_dir=model_prediction_dir)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/tommy/win_documents/code/ai_source/evalscope/evalscope/api/benchmark/adapters/default_data_adapter.py", line 546, in run_inference
+    result = self._on_inference(model, sample)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/tommy/win_documents/code/ai_source/evalscope/evalscope/api/benchmark/adapters/default_data_adapter.py", line 433, in _on_inference
+    model_output = model.generate(input=sample.input, tools=sample.tools)
+                   ^^^^^^^^^^^^^^
+  File "/media/tommy/win_documents/code/ai_source/evalscope/evalscope/api/model/lazy_model.py", line 113, in __getattr__
+    model = self._ensure_loaded()
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/tommy/win_documents/code/ai_source/evalscope/evalscope/utils/function_utils.py", line 45, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/tommy/win_documents/code/ai_source/evalscope/evalscope/api/model/lazy_model.py", line 72, in _ensure_loaded
+    model = get_model_with_task_config(task_config=task_config)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/tommy/win_documents/code/ai_source/evalscope/evalscope/api/model/model.py", line 312, in get_model_with_task_config
+    return get_model(
+           ^^^^^^^^^^
+  File "/media/tommy/win_documents/code/ai_source/evalscope/evalscope/utils/function_utils.py", line 45, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/tommy/win_documents/code/ai_source/evalscope/evalscope/api/model/model.py", line 372, in get_model
+    modelapi_instance = modelapi_type(
+                        ^^^^^^^^^^^^^^
+  File "/media/tommy/win_documents/code/ai_source/evalscope/evalscope/models/modelscope.py", line 102, in __init__
+    self.model = AutoModelForCausalLM.from_pretrained(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tommy/miniconda3/envs/py312/lib/python3.12/site-packages/modelscope/utils/hf_util/patcher.py", line 289, in from_pretrained
+    module_obj = module_class.from_pretrained(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tommy/miniconda3/envs/py312/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 394, in from_pretrained
+    return model_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tommy/miniconda3/envs/py312/lib/python3.12/site-packages/transformers/modeling_utils.py", line 4241, in from_pretrained
+    loading_info = model.load_adapter(
+                   ^^^^^^^^^^^^^^^^^^^
+  File "/home/tommy/miniconda3/envs/py312/lib/python3.12/site-packages/transformers/integrations/peft.py", line 506, in load_adapter
+    from peft.utils.save_and_load import _maybe_shard_state_dict_for_tp
+ImportError: cannot import name '_maybe_shard_state_dict_for_tp' from 'peft.utils.save_and_load' (/home/tommy/miniconda3/envs/py312/lib/python3.12/site-packages/peft/utils/save_and_load.py)
+
+2026-05-31 22:12:57 - evalscope - INFO: Evaluating[gsm8k]  20%| 1/5 [Elapsed: 00:04 < Remaining: 00:16,  4.20s/it]
+2026-05-31 22:12:58 - evalscope - INFO: Running[eval]   0%| 0/2 [Elapsed: 00:18 < Remaining: ?, ?benchmark/s]

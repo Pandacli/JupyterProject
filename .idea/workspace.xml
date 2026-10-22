@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="32a7f10f-0014-4148-b324-34c8a7fcb905" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/AI测试转型指南_从入门到精通.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AGENTS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLAUDE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CN-AI-Trainer/01.ModelClassification.md" beforeDir="false" afterPath="$PROJECT_DIR$/CN-AI-Trainer/01.ModelClassification.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CN-AI-Trainer/02.Logistic&amp;Linear.md" beforeDir="false" afterPath="$PROJECT_DIR$/CN-AI-Trainer/02.Logistic&amp;Linear.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CN-AI-Trainer/03.Statistical-Test-Methods.md" beforeDir="false" afterPath="$PROJECT_DIR$/CN-AI-Trainer/03.Statistical-Test-Methods.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CN-AI-Trainer/04.Classification-of-statistical-analysis.md" beforeDir="false" afterPath="$PROJECT_DIR$/CN-AI-Trainer/04.Classification-of-statistical-analysis.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CN-AI-Trainer/05.Software-Lifecycle-Model.md" beforeDir="false" afterPath="$PROJECT_DIR$/CN-AI-Trainer/05.Software-Lifecycle-Model.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CN-AI-Trainer/06.HMM-acoustic-model.md" beforeDir="false" afterPath="$PROJECT_DIR$/CN-AI-Trainer/06.HMM-acoustic-model.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CN-AI-Trainer/07.Convolution-and-deconvolution.md" beforeDir="false" afterPath="$PROJECT_DIR$/CN-AI-Trainer/07.Convolution-and-deconvolution.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CN-AI-Trainer/08.Methods-of-text-annotation.md" beforeDir="false" afterPath="$PROJECT_DIR$/CN-AI-Trainer/08.Methods-of-text-annotation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CN-AI-Trainer/09.Annotation-Quality.md" beforeDir="false" afterPath="$PROJECT_DIR$/CN-AI-Trainer/09.Annotation-Quality.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CN-AI-Trainer/10.Imbalanced-training-set.md" beforeDir="false" afterPath="$PROJECT_DIR$/CN-AI-Trainer/10.Imbalanced-training-set.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CN-AI-Trainer/11.Dataset-partitioning-method.md" beforeDir="false" afterPath="$PROJECT_DIR$/CN-AI-Trainer/11.Dataset-partitioning-method.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CN-AI-Trainer/12.Model-overfitting.md" beforeDir="false" afterPath="$PROJECT_DIR$/CN-AI-Trainer/12.Model-overfitting.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CN-AI-Trainer/13.Methods-of-annotation.md" beforeDir="false" afterPath="$PROJECT_DIR$/CN-AI-Trainer/13.Methods-of-annotation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CN-AI-Trainer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/CN-AI-Trainer/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CN-AI-Trainer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CN-AI-Trainer/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai-engineering-from-scratch/phases/00-setup-and-tooling/01-dev-environment/code/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/ai-engineering-from-scratch/phases/00-setup-and-tooling/01-dev-environment/code/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai-engineering-from-scratch/phases/00-setup-and-tooling/01-dev-environment/code/verify.py" beforeDir="false" afterPath="$PROJECT_DIR$/ai-engineering-from-scratch/phases/00-setup-and-tooling/01-dev-environment/code/verify.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai-engineering-from-scratch/phases/00-setup-and-tooling/01-dev-environment/code/verify.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ai-engineering-from-scratch/phases/00-setup-and-tooling/01-dev-environment/code/verify.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/bin/allure" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/bin/allure.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/config/allure-cucumber.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/config/allure-junit.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/config/allure.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/allure-commandline-2.34.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/allure-generator-2.34.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/allure-model-2.29.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/allure-plugin-api-2.34.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/allure1-model-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/annotations-15.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/commons-beanutils-1.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/commons-codec-1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/commons-collections-3.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/commons-collections4-4.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/commons-io-2.19.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/commons-lang3-3.17.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/commons-logging-1.3.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/commons-text-1.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/config/jetty-logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/config/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/flexmark-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/flexmark-ext-tables-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/flexmark-util-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/flexmark-util-ast-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/flexmark-util-builder-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/flexmark-util-collection-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/flexmark-util-data-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/flexmark-util-dependency-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/flexmark-util-format-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/flexmark-util-html-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/flexmark-util-misc-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/flexmark-util-options-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/flexmark-util-sequence-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/flexmark-util-visitor-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/freemarker-2.3.34.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/httpclient-4.5.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/httpcore-4.4.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/jackson-annotations-2.19.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/jackson-core-2.19.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/jackson-databind-2.19.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/jackson-dataformat-xml-2.19.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/jackson-dataformat-yaml-2.19.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/jackson-module-jaxb-annotations-2.19.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/jakarta.activation-api-1.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/jaxb-api-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/jaxb-utils-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/jcommander-1.82.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/logback-classic-1.3.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/logback-core-1.3.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/opencsv-5.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/properties-2.0.RC5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/slf4j-api-2.0.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/snakeyaml-2.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/stax2-api-4.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/tika-core-2.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/lib/woodstox-core-7.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/behaviors-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/behaviors-plugin/behaviors-plugin-2.34.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/behaviors-plugin/static/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/custom-logo-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/custom-logo-plugin/custom-logo-plugin-2.34.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/custom-logo-plugin/static/custom-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/custom-logo-plugin/static/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/jira-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/jira-plugin/jira-plugin-2.34.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/jira-plugin/lib/allure-jira-commons-2.34.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/jira-plugin/lib/annotations-13.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/jira-plugin/lib/converter-jackson-3.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/jira-plugin/lib/jackson-annotations-2.19.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/jira-plugin/lib/jackson-core-2.19.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/jira-plugin/lib/jackson-databind-2.19.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/jira-plugin/lib/kotlin-stdlib-2.1.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/jira-plugin/lib/kotlin-stdlib-jdk7-1.9.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/jira-plugin/lib/kotlin-stdlib-jdk8-1.9.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/jira-plugin/lib/okhttp-4.12.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/jira-plugin/lib/okio-jvm-3.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/jira-plugin/lib/retrofit-3.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/junit-xml-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/junit-xml-plugin/junit-xml-plugin-2.34.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/packages-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/packages-plugin/packages-plugin-2.34.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/packages-plugin/static/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/screen-diff-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/screen-diff-plugin/screen-diff-plugin-2.34.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/screen-diff-plugin/static/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/screen-diff-plugin/static/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/trx-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/trx-plugin/trx-plugin-2.34.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/xctest-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/xctest-plugin/lib/xmlwise-1.2.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/xctest-plugin/xctest-plugin-2.34.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/xray-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/xray-plugin/lib/allure-jira-commons-2.34.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/xray-plugin/lib/annotations-13.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/xray-plugin/lib/converter-jackson-3.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/xray-plugin/lib/jackson-annotations-2.19.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/xray-plugin/lib/jackson-core-2.19.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/xray-plugin/lib/jackson-databind-2.19.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/xray-plugin/lib/kotlin-stdlib-2.1.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/xray-plugin/lib/kotlin-stdlib-jdk7-1.9.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/xray-plugin/lib/kotlin-stdlib-jdk8-1.9.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/xray-plugin/lib/okhttp-4.12.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/xray-plugin/lib/okio-jvm-3.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/xray-plugin/lib/retrofit-3.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/xray-plugin/xray-plugin-2.34.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/xunit-xml-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure/plugins/xunit-xml-plugin/xunit-xml-plugin-2.34.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/analytics/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/analytics/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/analytics/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/analytics/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/analytics/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/analytics/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/analytics/templates/admin/analytics/analyticsevent/change_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/analytics/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/analytics/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/api_testing/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/api_testing/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/api_testing/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/api_testing/custom_email_backend.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/api_testing/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/api_testing/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/api_testing/operation_logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/api_testing/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/api_testing/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/api_testing/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/api_testing/variable_resolver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/api_testing/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/app_automation/Template/common/plus_sign.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/app_automation/Template/common/spin_button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/app_automation/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/app_automation/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/app_automation/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/app_automation/constants.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/app_automation/consumers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/app_automation/executors/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/app_automation/executors/test_executor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/app_automation/managers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/app_automation/managers/device_manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/app_automation/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/app_automation/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/app_automation/routing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/app_automation/runners/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/app_automation/runners/ui_flow_runner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/app_automation/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/app_automation/tasks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/app_automation/tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/app_automation/tests/conftest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/app_automation/tests/test_app_flow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/app_automation/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/app_automation/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/app_automation/utils/airtest_base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/app_automation/utils/image_helpers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/app_automation/utils/ocr_helper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/app_automation/views/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/app_automation/views/component_views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/app_automation/views/config_views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/app_automation/views/dashboard_views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/app_automation/views/device_views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/app_automation/views/element_views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/app_automation/views/execution_views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/app_automation/views/project_views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/app_automation/views/scheduled_task_views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/app_automation/views/suite_views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/app_automation/views/test_case_views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/assistant/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/assistant/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/assistant/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/assistant/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/assistant/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/assistant/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/assistant/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/assistant/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/assistant/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/assistant/views_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/core/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/core/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/core/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/core/management/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/core/management/commands/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/core/management/commands/download_webdrivers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/core/management/commands/init_locator_strategies.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/core/management/commands/load_component_pack.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/core/management/commands/run_all_scheduled_tasks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/core/management/commands/ui-component-pack.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/core/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/core/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/core/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/core/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/core/variable_resolver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/core/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/data_factory/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/data_factory/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/data_factory/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/data_factory/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/data_factory/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/data_factory/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/data_factory/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/data_factory/tool_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/data_factory/tools/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/data_factory/tools/china_bank_card.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/data_factory/tools/crontab_tools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/data_factory/tools/encoding_tools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/data_factory/tools/encryption_tools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/data_factory/tools/image_tools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/data_factory/tools/json_tools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/data_factory/tools/random_tools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/data_factory/tools/string_tools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/data_factory/tools/test_data_tools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/data_factory/tools/unified_credit_code.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/data_factory/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/data_factory/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/defects/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/defects/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/defects/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/defects/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/defects/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/defects/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/defects/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/defects/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/defects/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/executions/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/executions/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/executions/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/executions/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/executions/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/executions/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/executions/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/executions/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/projects/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/projects/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/projects/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/projects/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/projects/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/projects/project_list_views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/projects/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/projects/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/projects/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/reports/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/reports/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/reports/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/reports/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/reports/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/reports/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/reports/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/requirement_analysis/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/requirement_analysis/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/requirement_analysis/advanced_analyzer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/requirement_analysis/ai_models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/requirement_analysis/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/requirement_analysis/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/requirement_analysis/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/requirement_analysis/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/requirement_analysis/services.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/requirement_analysis/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/requirement_analysis/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/reviews/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/reviews/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/reviews/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/reviews/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/reviews/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/reviews/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/reviews/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/reviews/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/testcases/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/testcases/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/testcases/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/testcases/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/testcases/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/testcases/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/testcases/services.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/testcases/tasks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/testcases/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/testcases/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/testsuites/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/testsuites/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/testsuites/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/testsuites/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/testsuites/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/testsuites/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/testsuites/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/ui_automation/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/ui_automation/ai_agent.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/ui_automation/ai_base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/ui_automation/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/ui_automation/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/ui_automation/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/ui_automation/operation_logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/ui_automation/pdf_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/ui_automation/playwright_engine.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/ui_automation/reports.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/ui_automation/selenium_engine.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/ui_automation/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/ui_automation/test_executor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/ui_automation/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/ui_automation/variable_resolver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/ui_automation/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/ui_automation/views_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/users/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/users/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/users/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/users/captcha.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/users/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/users/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/users/redis_client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/users/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/users/sms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/users/test_views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/users/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/users/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/versions/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/versions/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/versions/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/versions/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/versions/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps/versions/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/celery.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/middleware.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/APP/APP自动化完整集成报告.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/APP/APP自动化快速开始.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/APP/APP自动化集成完成报告.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/APP/APP自动化集成说明.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/APP/PROD_DEPLOY_LINUX.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/APP/前端页面开发完成报告.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/APP/最终集成完成总结.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/I18N国际化使用说明.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/UI 自动化测试用户使用手册.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/UI自动化元素order字段迁移说明.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/UI自动化测试执行说明.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/WebDriver驱动管理优化说明.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/demo_pyzbar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/key.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/tester.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/tester_pro.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/数据工厂API接口文档.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/数据工厂使用说明.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/数据工厂功能说明.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/数据工厂快速开始.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/用例评审管理功能说明.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/问题排查指南.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/Dockerfile.dev" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/PAGE_I18N_GUIDE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/QUICK_START.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/README.Docker.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/deploy.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/docker-compose.dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/jsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/nginx.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/public/tree-sitter-bash.wasm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/public/tree-sitter.wasm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/api/api-testing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/api/app-automation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/api/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/api/data-factory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/api/defects.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/api/requirement-analysis.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/api/ui_automation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/assets/css/global.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/assets/images/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/assets/images/logo_home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/DataFactorySelector.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/layout/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/datetimeFormats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/lang/en/api-testing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/lang/en/app-automation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/lang/en/assistant.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/lang/en/auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/lang/en/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/lang/en/configuration.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/lang/en/data-factory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/lang/en/execution.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/lang/en/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/lang/en/nav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/lang/en/notification.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/lang/en/project.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/lang/en/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/lang/en/requirement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/lang/en/review.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/lang/en/testcase.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/lang/en/ui-automation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/lang/en/version.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/lang/zh-cn/api-testing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/lang/zh-cn/app-automation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/lang/zh-cn/assistant.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/lang/zh-cn/auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/lang/zh-cn/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/lang/zh-cn/configuration.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/lang/zh-cn/data-factory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/lang/zh-cn/execution.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/lang/zh-cn/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/lang/zh-cn/nav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/lang/zh-cn/notification.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/lang/zh-cn/project.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/lang/zh-cn/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/lang/zh-cn/requirement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/lang/zh-cn/review.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/lang/zh-cn/testcase.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/lang/zh-cn/ui-automation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/lang/zh-cn/version.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/numberFormats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/locales/pluralRules.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/stores/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/stores/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/utils/api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/utils/app-automation-helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/utils/codeGenerator.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/utils/requestModel.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/utils/tracker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/Home.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/api-testing/AIServiceConfig.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/api-testing/AutomationTesting.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/api-testing/Dashboard.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/api-testing/EnvironmentManagement.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/api-testing/InterfaceManagement.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/api-testing/NotificationManagement.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/api-testing/ProjectManagement.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/api-testing/ReportView.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/api-testing/RequestHistory.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/api-testing/ScheduledTasks.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/api-testing/components/EnvironmentTable.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/api-testing/components/HistoryTable.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/api-testing/components/KeyValueEditor.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/api-testing/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/app-automation/Index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/app-automation/dashboard/Dashboard.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/app-automation/devices/DeviceList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/app-automation/elements/ElementList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/app-automation/elements/components/CaptureElementDialog.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/app-automation/elements/components/ManualElementDialog.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/app-automation/executions/ExecutionList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/app-automation/notification/NotificationLogs.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/app-automation/packages/PackageList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/app-automation/projects/ProjectList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/app-automation/reports/ReportList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/app-automation/scheduled-tasks/ScheduledTasks.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/app-automation/settings/AppSettings.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/app-automation/suites/SuiteList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/app-automation/test-cases/SceneBuilder.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/app-automation/test-cases/TestCaseList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/assistant/AssistantView.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/auth/Login.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/auth/Register.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/configuration/AIIntelligentModeConfig.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/configuration/ConfigurationCenter.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/configuration/DifyConfig.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/configuration/UIEnvironmentConfig.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/data-factory/DataFactory.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/defects/DefectDashboard.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/defects/DefectDetail.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/defects/DefectForm.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/defects/DefectList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/defects/DefectReport.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/defects/options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/executions/ExecutionDetailView.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/executions/ExecutionList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/executions/ExecutionListView.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/notification/NotificationConfigs.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/notification/NotificationLogs.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/profile/UserProfile.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/projects/ProjectDetail.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/projects/ProjectList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/reports/AiTestReport.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/reports/ReportList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/requirement-analysis/AIModelConfig.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/requirement-analysis/GeneratedTestCaseList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/requirement-analysis/GenerationConfigView.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/requirement-analysis/PromptConfig.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/requirement-analysis/RequirementAnalysisView.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/requirement-analysis/TaskDetail.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/reviews/ReviewDetail.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/reviews/ReviewForm.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/reviews/ReviewList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/reviews/ReviewTemplateList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/testcases/TestCaseDetail.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/testcases/TestCaseEdit.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/testcases/TestCaseForm.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/testcases/TestCaseImportRecordList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/testcases/TestCaseList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/testsuites/TestSuiteList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/ui-automation/Index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/ui-automation/ai/AICaseList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/ui-automation/ai/AIExecutionRecords.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/ui-automation/ai/AIExecutionReport.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/ui-automation/ai/AITesting.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/ui-automation/dashboard/Dashboard.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/ui-automation/elements/ElementList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/ui-automation/elements/ElementManagerEnhanced.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/ui-automation/executions/ExecutionList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/ui-automation/notification/NotificationConfigs.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/ui-automation/notification/NotificationLogs.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/ui-automation/page-objects/PageObjectManager.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/ui-automation/projects/ProjectList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/ui-automation/reports/ReportList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/ui-automation/scheduled-tasks/ScheduledTasks.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/ui-automation/scripts/ScriptEditorEnhanced.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/ui-automation/scripts/ScriptList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/ui-automation/suites/SuiteList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/ui-automation/test-cases/TestCaseManager.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/versions/VersionList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/vite-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../logs/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../logs/app_automation/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media/api-testing/allure-reports/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media/api-testing/allure-results/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media/api-testing/allure-static/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media/app-automation/allure-reports/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media/app-automation/allure-results/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media/app-automation/screenshots/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media/defect_attachments/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templates/admin/analytics/analyticsevent/change_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templates/admin/users/registrationstatsproxy/change_list.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ai-engineering-from-scratch" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/miniconda3/envs/py312/lib/python3.12/site-packages/numpy/core/multiarray.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/miniconda3/envs/py312/lib/python3.12/site-packages/numpy/core/multiarray.pyi" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="37vHAX1Ii7QqeDXVQR7sSQivcjZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.hello.executor": "Run",
+    "Python.mongoDBTest.executor": "Debug",
+    "Python.verify.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "/media/tommy/win_documents/code/testhub_platform",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "ts.external.directory.path": "/media/tommy/win_media/ubuntu/pycharm/pycharm-2026.1.1/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code\python\JupyterProject\trainnerLevel3\htmls" />
+      <recent name="E:\code\python\JupyterProject\trainnerLevel3" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ai-engineering-from-scratch/phases/00-setup-and-tooling/01-dev-environment/code" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/python_base" />
+      <recent name="E:\code\python\JupyterProject\matplotlib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.verify">
+    <configuration name="hello" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="JupyterProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ai-engineering-from-scratch/phases/00-setup-and-tooling/01-dev-environment/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ai-engineering-from-scratch/phases/00-setup-and-tooling/01-dev-environment/code/hello.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mongoDBTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="JupyterProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mongo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mongo/mongoDBTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="verify" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="JupyterProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ai-engineering-from-scratch/phases/00-setup-and-tooling/01-dev-environment/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ai-engineering-from-scratch/phases/00-setup-and-tooling/01-dev-environment/code/verify.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.verify" />
+        <item itemvalue="Python.hello" />
+        <item itemvalue="Python.mongoDBTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-024ed6589d45-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.23567.174" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="32a7f10f-0014-4148-b324-34c8a7fcb905" name="Changes" comment="" />
+      <created>1767776481294</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1767776481294</updated>
+      <workItem from="1767776482345" duration="33000" />
+      <workItem from="1767776527560" duration="4502000" />
+      <workItem from="1767857305597" duration="4915000" />
+      <workItem from="1767937320271" duration="2051000" />
+      <workItem from="1768181993871" duration="5397000" />
+      <workItem from="1768274282125" duration="10670000" />
+      <workItem from="1768374549663" duration="186000" />
+      <workItem from="1768374751853" duration="792000" />
+      <workItem from="1768375575608" duration="446000" />
+      <workItem from="1768376997937" duration="2863000" />
+      <workItem from="1768553880630" duration="3540000" />
+      <workItem from="1768872725674" duration="713000" />
+      <workItem from="1778942896820" duration="1912000" />
+      <workItem from="1779022704543" duration="3028000" />
+      <workItem from="1779203135676" duration="104000" />
+      <workItem from="1779255480011" duration="657000" />
+      <workItem from="1779259885242" duration="3553000" />
+      <workItem from="1779277954069" duration="8301000" />
+      <workItem from="1779717194779" duration="2945000" />
+      <workItem from="1779803254828" duration="983000" />
+      <workItem from="1779844459225" duration="599000" />
+      <workItem from="1779853757654" duration="1201000" />
+      <workItem from="1779947152944" duration="1330000" />
+      <workItem from="1779976551249" duration="599000" />
+      <workItem from="1780037228417" duration="3096000" />
+      <workItem from="1780058046955" duration="928000" />
+      <workItem from="1780063090294" duration="619000" />
+      <workItem from="1780105988640" duration="4411000" />
+      <workItem from="1780132744496" duration="645000" />
+      <workItem from="1780136143834" duration="1948000" />
+      <workItem from="1780156492544" duration="627000" />
+      <workItem from="1780158349079" duration="1766000" />
+      <workItem from="1780190959477" duration="4740000" />
+      <workItem from="1780236428295" duration="2142000" />
+      <workItem from="1780285962555" duration="2139000" />
+      <workItem from="1780366670303" duration="609000" />
+      <workItem from="1780554634633" duration="1243000" />
+      <workItem from="1780563685232" duration="26000" />
+      <workItem from="1780582938301" duration="1307000" />
+      <workItem from="1781072598084" duration="599000" />
+      <workItem from="1781136683547" duration="613000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/ai-engineering-from-scratch/phases/00-setup-and-tooling/01-dev-environment/code/verify.js" />
+      </list>
+    </option>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="file-handler:ansi-highlighter" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ai-engineering-from-scratch/phases/00-setup-and-tooling/01-dev-environment/code/verify.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

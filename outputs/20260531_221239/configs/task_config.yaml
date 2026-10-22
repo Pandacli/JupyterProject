@@ -1,0 +1,242 @@
+agent_config: null
+analysis_report: false
+api_url: null
+chat_template: null
+collect_perf: true
+dataset_args:
+  arc:
+    aggregation: mean
+    data_statistics: null
+    dataset_id: allenai/ai2_arc
+    default_subset: default
+    description: '
+
+      ## Overview
+
+
+      ARC (AI2 Reasoning Challenge) is a benchmark designed to evaluate science question
+      answering capabilities of AI models. It consists of multiple-choice science
+      questions from grade 3 to grade 9, divided into an Easy set and a Challenge
+      set based on difficulty.
+
+
+      ## Task Description
+
+
+      - **Task Type**: Multiple-Choice Science Question Answering
+
+      - **Input**: Science question with 3-5 answer choices
+
+      - **Output**: Correct answer letter (A, B, C, D, or E)
+
+      - **Difficulty Levels**: ARC-Easy and ARC-Challenge
+
+
+      ## Key Features
+
+
+      - 7,787 science questions from standardized tests (grades 3-9)
+
+      - ARC-Easy: Questions answerable by retrieval or word co-occurrence
+
+      - ARC-Challenge: Questions requiring deeper reasoning
+
+      - Questions cover physics, chemistry, biology, and earth science
+
+      - Designed to test both factual knowledge and reasoning
+
+
+      ## Evaluation Notes
+
+
+      - Default configuration uses **0-shot** evaluation
+
+      - Two subsets available: `ARC-Easy` and `ARC-Challenge`
+
+      - Challenge set is commonly used for leaderboard comparisons
+
+      - Supports few-shot evaluation with train split examples
+
+      '
+    eval_split: test
+    extra_params: {}
+    few_shot_num: 0
+    few_shot_prompt_template: null
+    few_shot_random: false
+    filters: null
+    force_redownload: false
+    max_image_bytes: null
+    metric_list:
+    - acc
+    name: arc
+    output_types:
+    - generation
+    paper_url: null
+    pretty_name: ARC
+    prompt_template: 'Answer the following multiple choice question. The entire content
+      of your response should be of the following format: ''ANSWER: [LETTER]'' (without
+      quotes) where [LETTER] is one of {letters}.
+
+
+      {question}
+
+
+      {choices}'
+    query_template: null
+    review_timeout: null
+    sample_example: null
+    sandbox_config: {}
+    shuffle: false
+    shuffle_choices: false
+    subset_list:
+    - ARC-Easy
+    - ARC-Challenge
+    system_prompt: null
+    tags:
+    - Reasoning
+    - MCQ
+    train_split: train
+  gsm8k:
+    aggregation: mean
+    data_statistics: null
+    dataset_id: AI-ModelScope/gsm8k
+    default_subset: default
+    description: '
+
+      ## Overview
+
+
+      GSM8K (Grade School Math 8K) is a high-quality dataset of 8.5K linguistically
+      diverse grade school math word problems created by human problem writers. The
+      dataset is specifically designed to evaluate and improve the multi-step mathematical
+      reasoning capabilities of language models.
+
+
+      ## Task Description
+
+
+      - **Task Type**: Mathematical Word Problem Solving
+
+      - **Input**: Natural language math word problem
+
+      - **Output**: Numerical answer derived through step-by-step reasoning
+
+      - **Difficulty**: Grade school level (2-8 reasoning steps required)
+
+
+      ## Key Features
+
+
+      - Problems require basic arithmetic operations (addition, subtraction, multiplication,
+      division)
+
+      - Solutions involve 2 to 8 sequential reasoning steps
+
+      - High linguistic diversity in problem formulations
+
+      - Human-written problems ensuring natural language quality
+
+      - Clear numerical answers for objective evaluation
+
+
+      ## Evaluation Notes
+
+
+      - Default configuration uses **4-shot** examples with Chain-of-Thought (CoT)
+      prompting
+
+      - Answers should be formatted within `\boxed{}` for proper extraction
+
+      - The metric extracts numerical values for accuracy comparison
+
+      - Supports both zero-shot and few-shot evaluation modes
+
+      '
+    eval_split: test
+    extra_params: {}
+    few_shot_num: 4
+    few_shot_prompt_template: 'Here are some examples of how to solve similar problems:
+
+
+      {fewshot}
+
+
+      {question}
+
+      Please reason step by step, and put your final answer within \boxed{{}}.'
+    few_shot_random: false
+    filters: null
+    force_redownload: false
+    max_image_bytes: null
+    metric_list:
+    - acc:
+        numeric: true
+    name: gsm8k
+    output_types:
+    - generation
+    paper_url: https://arxiv.org/abs/2110.14168
+    pretty_name: GSM8K
+    prompt_template: '{question}
+
+      Please reason step by step, and put your final answer within \boxed{{}}.'
+    query_template: null
+    review_timeout: null
+    sample_example: null
+    sandbox_config: {}
+    shuffle: false
+    shuffle_choices: false
+    subset_list:
+    - main
+    system_prompt: null
+    tags:
+    - Math
+    - Reasoning
+    train_split: train
+dataset_dir: /home/tommy/.cache/modelscope/hub/datasets
+dataset_hub: modelscope
+datasets:
+- gsm8k
+- arc
+debug: false
+enable_progress_tracker: false
+eval_backend: Native
+eval_batch_size: 1
+eval_config: null
+eval_type: llm_ckpt
+evalscope_version: 0.0.0_dev
+generation_config:
+  batch_size: 1
+  do_sample: false
+  max_tokens: 2048
+  n: 1
+  temperature: 1.0
+  top_k: 50
+  top_p: 1.0
+ignore_errors: false
+judge_model_args: {}
+judge_strategy: auto
+judge_worker_num: 1
+limit: 5
+model: /media/tommy/win_documents/code/ai_source/LlamaFactory/saves/Qwen2.5-1.5B-Instruct/lora/train_2026-05-30-20-01-00
+model_args:
+  precision: torch.float16
+  revision: master
+model_id: train_2026-05-30-20-01-00
+model_task: text_generation
+no_timestamp: false
+repeats: 1
+rerun_review: false
+sandbox:
+  default_config: {}
+  enabled: false
+  engine: docker
+  manager_config: {}
+  pool_size: null
+sandbox_manager_config: {}
+sandbox_type: docker
+seed: 42
+stream: null
+timeout: null
+use_cache: null
+use_sandbox: false
+work_dir: ./outputs/20260531_221239
